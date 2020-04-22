@@ -26,12 +26,12 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.main p {
+  -ms-flex-line-pack: center;
+      align-content: center;
   font-size: 8rem;
   font-weight: 700;
   color: #FFF0F5;
+  padding-top: 400px;
 }
 
 .navbar {

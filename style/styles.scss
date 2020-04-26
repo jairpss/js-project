@@ -19,6 +19,20 @@ body{
     color: $white;
 }
 
+//*-----------------  SCROLL BAR----------------------*//
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $dark-green;
+}
+
 main {
     margin-left: 5rem;
     padding: 1rem;
@@ -80,7 +94,7 @@ main {
 
   .link-text {
     display: none;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   
   .nav-link svg {

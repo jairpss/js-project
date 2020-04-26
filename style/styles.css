@@ -11,9 +11,40 @@ body {
   color: #FFF0F5;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(46, 177, 144, 0.678);
+}
+
 main {
   margin-left: 5rem;
   padding: 1rem;
+}
+
+main a {
+  position: absolute;
+  width: 242px;
+  height: 64px;
+  left: 839px;
+  top: 670px;
+  background: -webkit-gradient(linear, left top, right top, from(#12F5BF), to(rgba(37, 192, 155, 0.8)));
+  background: linear-gradient(90deg, #12F5BF 0%, rgba(37, 192, 155, 0.8) 100%);
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #393E46;
+  text-decoration: none;
+  padding-top: 1.2rem;
 }
 
 .main {
@@ -91,7 +122,7 @@ main {
 
 .link-text {
   display: none;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .nav-link svg {
@@ -122,7 +153,7 @@ main {
   color: #FFF0F5;
   background: #222831;
   font-size: 1.5rem;
-  letter-spacing: 0.1ch;
+  letter-spacing: 6px;
   width: 100%;
 }
 

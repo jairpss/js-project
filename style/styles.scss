@@ -36,6 +36,7 @@ body::-webkit-scrollbar-thumb {
 main {
     margin-left: 5rem;
     padding: 1rem;
+    //btn
     a {
         position: absolute;
         width: 242px;
@@ -53,6 +54,13 @@ main {
         text-decoration: none;
         padding-top: 1.2rem;
       }
+    .sub{
+      display: flex;
+      flex-direction: column;
+      color: #25C09B;
+      font-size: 4rem;
+      font-weight: 500;
+    }
 }
 
 
@@ -67,6 +75,42 @@ main {
     color: $white;
     padding-top: 400px;
 }
+
+.container{
+  border: 1px solid #FFF0F5;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  .item1{
+    margin: 1rem 0;
+    font-size: 4rem;
+    color: #25C09B;
+    font-weight: 500;
+  }
+  .item2{
+    font-size: 8rem;
+    font-weight: 700;
+    color: $white;
+  }
+  .item3{
+    align-self: center;
+    margin: 1rem 1rem;
+    width: 242px;
+    height: 64px;
+    background: linear-gradient(90deg, #12F5BF 0%, rgba(37, 192, 155, 0.8) 100%);
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        color: #393E46;
+        text-decoration: none;
+        padding-top: 1.2rem;
+  }
+}  
 
 //*-------------------NAVBAR------------------------*//
 

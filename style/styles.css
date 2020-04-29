@@ -47,6 +47,19 @@ main a {
   padding-top: 1.2rem;
 }
 
+main .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #25C09B;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +76,57 @@ main a {
   font-weight: 700;
   color: #FFF0F5;
   padding-top: 400px;
+}
+
+.container {
+  border: 1px solid #FFF0F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.container .item1 {
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: #25C09B;
+  font-weight: 500;
+}
+
+.container .item2 {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #FFF0F5;
+}
+
+.container .item3 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 1rem 1rem;
+  width: 242px;
+  height: 64px;
+  background: -webkit-gradient(linear, left top, right top, from(#12F5BF), to(rgba(37, 192, 155, 0.8)));
+  background: linear-gradient(90deg, #12F5BF 0%, rgba(37, 192, 155, 0.8) 100%);
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #393E46;
+  text-decoration: none;
+  padding-top: 1.2rem;
 }
 
 .navbar {

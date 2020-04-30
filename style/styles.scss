@@ -22,7 +22,7 @@ body{
 //*-----------------  SCROLL BAR----------------------*//
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -53,6 +53,12 @@ main {
         color: #393E46;
         text-decoration: none;
         padding-top: 1.2rem;
+        transition: all ease-in-out 0.2s;
+        &:hover {
+          background: $main-gray;
+          border: solid 1.5px $light-green;
+          color: $color-gray-dark;
+        }
       }
     .sub{
       display: flex;
@@ -66,14 +72,14 @@ main {
 
 
 .main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    font-size: 8rem;
-    font-weight: 700;
-    color: $white;
-    padding-top: 400px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     align-content: center;
+//     font-size: 8rem;
+//     font-weight: 700;
+//     color: $white;
+//     padding-top: 400px;
 }
 
 .container{
@@ -81,8 +87,11 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  //align-items: center;
   align-content: space-around;
+  height: 100vh;
+  //width: 100vh;
   .item1{
     margin: 1rem 0;
     font-size: 4rem;
@@ -96,19 +105,6 @@ main {
   }
   .item3{
     align-self: center;
-    margin: 1rem 1rem;
-    width: 242px;
-    height: 64px;
-    background: linear-gradient(90deg, #12F5BF 0%, rgba(37, 192, 155, 0.8) 100%);
-    border-radius: 40px;
-    font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 42px;
-        text-align: center;
-        color: #393E46;
-        text-decoration: none;
-        padding-top: 1.2rem;
   }
 }  
 

@@ -5,10 +5,13 @@
   font-size: 16px;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+.indx {
   background-color: #222831;
   color: #FFF0F5;
+}
+
+.bg {
+  background-color: #FFF0F5;
 }
 
 body::-webkit-scrollbar {
@@ -28,47 +31,7 @@ main {
   padding: 1rem;
 }
 
-main a {
-  position: absolute;
-  width: 242px;
-  height: 64px;
-  left: 839px;
-  top: 670px;
-  background: -webkit-gradient(linear, left top, right top, from(#12F5BF), to(rgba(37, 192, 155, 0.8)));
-  background: linear-gradient(90deg, #12F5BF 0%, rgba(37, 192, 155, 0.8) 100%);
-  border-radius: 40px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 42px;
-  text-align: center;
-  color: #393E46;
-  text-decoration: none;
-  padding-top: 1.2rem;
-  -webkit-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
-}
-
-main a:hover {
-  opacity: .8;
-  color: #393E46;
-}
-
-main .sub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #25C09B;
-  font-size: 4rem;
-  font-weight: 500;
-}
-
 .container {
-  border: 1px solid #FFF0F5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +66,68 @@ main .sub {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.container .item3 a {
+  position: absolute;
+  width: 242px;
+  height: 64px;
+  left: 839px;
+  top: 670px;
+  background: #222831;
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  border: solid 1.5px #12F5BF;
+  color: #BDBDBD;
+  text-decoration: none;
+  padding-top: 1.2rem;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+.container .item3 a:hover {
+  background: #12F5BF;
+  border: solid 1.5px #12F5BF;
+  color: #393E46;
+  -webkit-box-shadow: 0px 20px 40px rgba(41, 161, 156, 0.1);
+          box-shadow: 0px 20px 40px rgba(41, 161, 156, 0.1);
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  height: 100vh;
+  background-color: #FFF0F5;
+  color: #393E46;
+}
+
+.container2 .item1 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #393E46;
+  margin: 5rem 0 2rem 0;
+}
+
+.container2 .item2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #25C09B;
 }
 
 .navbar {
